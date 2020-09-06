@@ -1,0 +1,225 @@
+/* 
+    Made By Aum Bhatt.
+    
+    The following code is Intellectual Property of Aum Bhatt.
+    No changes can be brought without taking permission Aum Bhatt.
+
+    Copyrighted By Aum Bhatt.
+    All Rights Reserved. 
+*/
+.testm{
+
+
+    background: #E056FD;
+}
+
+.testm-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    margin-top: 7vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+/* ------ Testm Title ------ */
+
+.testm-title{
+    margin: 10px;
+
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+/* ------ Testm All & Sec ------ */
+
+.testm-all{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.testm-sec{
+    /* position: absolute; */
+    /* top: 7vh; */
+
+    width: 70%;
+    height: 40vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px;
+
+    border: 2.5px solid black;
+    border-radius: 12px;
+
+    background: #E988FE;
+    
+}
+
+
+/* ------ Testm Name & Cont ------ */
+
+.testm-name{
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+}
+
+.testm-cont{
+
+    margin: 10px;
+
+    font-size: 10.5px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+/* ------ Testm-1 ------ */
+
+/* .testm-1{
+    top: ;
+    left: 0;
+} */
+
+/* ------ Testm-2 ------ */
+
+/* .testm-2{
+    top: 63vw;
+    right: 0%;
+} */
+
+/* ------ Testm-3 ------ */
+
+/* .testm-3{
+    top: 114vw;
+    left: 0;
+} */
+
+
+
+
+
+
+
+/* @media (max-width: 360px){
+
+    .testm-wrapper{
+        height: 120vh;
+    }
+
+    .testm-sec{
+        width: 55vw;
+        height: 55vw;
+    }
+
+    .testm-cont{}
+
+    .testm-1{
+        top: ;
+        left: 0;
+    }
+    
+    
+    .testm-2{
+        top: 55vw;
+        right: 0%;
+    }
+    
+    
+    .testm-3{
+        top: 100vw;
+        left: 0;
+    }
+} */
+
+
+
+@media (min-width: 1024px){
+
+    .testm-sec{
+        width: 350px;
+        height: 350px;
+    }
+}
+/* ------ Desktop ------ */
+
+@media (min-width: 768px){
+
+    .testm-wrapper{
+        margin-top: 12vh;
+    }
+
+    /* ------ Title ------ */
+    
+    .testm-title{
+        font-size: 50px;
+    }
+
+    .testm-sec{
+        position: relative;
+        top: inherit;
+
+        border-radius: 12px;
+
+        width: 350px;
+        height: 350px;
+    }
+
+    .testm-all{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        margin: 10px;
+
+    }
+
+    /* ------ Testm Content and Name ------ */
+
+    .testm-name{
+        margin: 5px;
+        font-size: 25px;
+    }
+
+    .testm-cont{
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    /* .testm-1{
+        margin-top: 0px;
+    }
+    .testm-2{
+        margin-top: 7vh;
+    }
+
+    .testm-3{
+        margin-top: 14vh;
+    } */
+}
+/* 
+    Made By Aum Bhatt.
+    
+    The following code is Intellectual Property of Aum Bhatt.
+    No changes can be brought without taking permission Aum Bhatt.
+
+    Copyrighted By Aum Bhatt.
+    All Rights Reserved. 
+*/

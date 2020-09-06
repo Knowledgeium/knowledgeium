@@ -1,0 +1,210 @@
+/* 
+    Made By Aum Bhatt.
+    
+    The following code is Intellectual Property of Aum Bhatt.
+    No changes can be brought without taking permission Aum Bhatt.
+
+    Copyrighted By Aum Bhatt.
+    All Rights Reserved. 
+*/
+
+.contact{
+    background: #22A6B3;
+}
+
+.contact input:focus{
+    border: 3px solid black;
+}
+
+/* ------ Contact Title ------ */
+
+.contact-title{
+    margin: 10px;
+
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+
+/* ------ Contact Wrapper ------ */
+
+.contact-wrapper{
+
+    margin-top: 5vh;
+
+
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+
+
+}
+
+.contact-wrapper input, label{
+    margin: 10px;
+}
+
+.contact-wrapper label{
+    font-weight: bold;
+    font-size: 15.425px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-wrapper .contact-input{
+    width: 95%;
+
+    border: none;
+    box-shadow: 0px 3.08499px 3.08499px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    padding: 5px;
+
+    font-size: 15px;
+
+    background: #FFFFFF;
+
+}
+
+.contact-submit-wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-message{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-submit{
+    width: 50%;
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+    padding: 10px;
+
+    box-shadow: 0px 4px 4px black;
+
+
+
+    font-weight: bold;
+    font-size: 20px;
+
+    text-align: center;
+   /*  text-shadow: rgb(0, 0, 0) 4px 0px 0px, 
+    rgb(0, 0, 0) 3.87565px 0.989616px 0px, 
+    rgb(0, 0, 0) 3.51033px 1.9177px 0px, 
+    rgb(0, 0, 0) 2.92676px 2.72656px 0px, 
+    rgb(0, 0, 0) 2.16121px 3.36588px 0px, 
+    rgb(0, 0, 0) 1.26129px 3.79594px 0px, 
+    rgb(0, 0, 0) 0.282949px 3.98998px 0px, 
+    rgb(0, 0, 0) -0.712984px 3.93594px 0px, 
+    rgb(0, 0, 0) -1.66459px 3.63719px 0px, 
+    rgb(0, 0, 0) -2.51269px 3.11229px 0px, 
+    rgb(0, 0, 0) -3.20457px 2.39389px 0px, 
+    rgb(0, 0, 0) -3.69721px 1.52664px 0px, 
+    rgb(0, 0, 0) -3.95997px 0.56448px 0px, 
+    rgb(0, 0, 0) -3.97652px -0.432781px 0px, 
+    rgb(0, 0, 0) -3.74583px -1.40313px 0px, 
+    rgb(0, 0, 0) -3.28224px -2.28625px 0px, 
+    rgb(0, 0, 0) -2.61457px -3.02721px 0px, 
+    rgb(0, 0, 0) -1.78435px -3.57996px 0px, 
+    rgb(0, 0, 0) -0.843183px -3.91012px 0px, 
+    rgb(0, 0, 0) 0.150409px -3.99717px 0px, 
+    rgb(0, 0, 0) 1.13465px -3.8357px 0px, 
+    rgb(0, 0, 0) 2.04834px -3.43574px 0px, 
+    rgb(0, 0, 0) 2.83468px -2.82216px 0px, 
+    rgb(0, 0, 0) 3.44477px -2.03312px 0px, 
+    rgb(0, 0, 0) 3.84068px -1.11766px 0px, 
+    rgb(0, 0, 0) 3.9978px -0.132717px 0px; */
+    color: #FFFFFF;
+
+    background: #F0932B;
+
+}
+
+.contact-submit:active{
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0);
+}
+
+.contact-submit:hover{
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.5);
+}
+
+
+/* ------ Desktop ------ */
+
+@media (min-width: 768px){
+    
+    .contact-title{
+        font-size: 50px;
+    }
+    .contact-wrapper{
+        display: grid;
+        grid-template-areas: 
+                        'name board'
+                        'email message'
+                        'phone message'
+                        'submit submit';
+
+        justify-content: center;
+        align-items: center;
+
+        grid-gap: 25px   ;
+    }
+
+
+    .contact-name{
+        grid-area: name;
+    }
+    .contact-email{
+        grid-area: email;
+    }
+    .contact-phone{
+        grid-area: phone;
+    }
+    .contact-board{
+        grid-area: board;
+    }
+    .contact-message{
+        grid-area: message;
+    }
+    
+    .contact-message > textarea{
+        height: 140px;
+    }
+    .contact-submit-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-area: submit;
+
+    }
+
+
+}
+
+
+
+/* 
+    Made By Aum Bhatt.
+    
+    The following code is Intellectual Property of Aum Bhatt.
+    No changes can be brought without taking permission Aum Bhatt.
+
+    Copyrighted By Aum Bhatt.
+    All Rights Reserved. 
+*/

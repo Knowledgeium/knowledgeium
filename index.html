@@ -1,0 +1,180 @@
+<!-- 
+    Made By Aum Bhatt.
+
+    The following code is Intellectual Property of Aum Bhatt.
+    No changes can be brought without taking permission Aum Bhatt.
+
+    Copyrighted By Aum Bhatt.
+    All Rights Reserved.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/common.css">
+
+    <link rel="stylesheet" href="css/banner/banner.css">
+    <link rel="stylesheet" href="css/Hero/hero.css">
+    <link rel="stylesheet" href="css/about/about.css">
+    <link rel="stylesheet" href="css/testimonials/testimonials.css">
+    <link rel="stylesheet" href="css/contact/contact.css">
+
+    <link rel='icon' type="png/image" href="images/Logo-favicon.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledgeium</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="badge">
+            <img src="images/Badge.png" alt="">
+        </div>
+        <button class="nav-btn">
+            <img class="nav-btn-img" src="images/Banner/Nav-Stairs-Btn.svg" alt="">
+        </button>
+        <nav class="nav-bar-mobile nav-bar-pc">
+            
+            <ul class="nav-bar-mobile-li shadowed-text">
+                <li><span onclick="navScroll(0)">Home</span></li>
+                <li><span onclick="navScroll(1)">About</span></li>
+                <li><span onclick="navScroll(2)">Testimonials</span></li>
+                <li><span onclick="navScroll(3)">Contact</span></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="section hero">
+        <div class="hero-wrapper wrap-animate">
+            <div class="hero-image" >
+                <img src="images/Hero/Hero-Image.png" alt="">
+            </div>
+            <div class="hero-text shadowed-text">
+                Online tuition classes and material for CBSE, IGCSE & more. . .
+            </div>
+        </div>
+    </div>
+
+    <div class="section about">
+        <div class="about-wrapper wrap-animate">
+            <div class="about-title shadowed-text">About the Faculty</div>
+            <div class="about-image">
+                <img src="images/About/About-image.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <div class="facultyName shadowed-text">Kokila Asher</div>
+                A highly well presented individual, articulate able to combine interpersonal skills and flexible problem solving approach. Teaching a wide variety of students from elementary to advanced levels.
+                <br><br>
+                Teaching business math and economics  at O level as  senior teacher with Al Ibdda international school, Bausher Oman.
+                <br><br>
+                At the Indian School Muscat involved with variety of national events and Cordination with dept of private schools.
+                Integrate multiple teaching styles to intensify the range of learning.
+            </div>
+        </div>
+    </div>
+
+    <div class="section testm">
+        <div class="testm-wrapper wrap-animate">
+            <div class="testm-title shadowed-text">
+                Testimonials
+            </div>
+            <div class="testm-all">
+                <div class="testm-1 testm-sec">
+                    <div class="testm-name shadowed-text">Aum Bhatt</div>
+                    <div class="testm-cont">
+                        I am obliged to be a student of yours as not only you have helped me to learn the subjects but also have boosted my self-confidence and unleashed the true potential of my inner self.<br>
+                        Thank you so much for illuminating my future with knowledge and wisdom.
+                    </div>
+                </div>
+                <div class="testm-2 testm-sec">
+                    <div class="testm-name shadowed-text">Pusti Jesrani</div>
+                    <div class="testm-cont">
+                        I feel honoured to be studying under you for the past couple years. Your teaching methods were immaculate and words precise and easy to understand.<br>
+                        You are a joyful and kind-hearted<br>
+                        person which makes the learning process better.
+                    </div>
+                </div>
+                <div class="testm-3 testm-sec">
+                    <div class="testm-name shadowed-text">Gaurang Mehta</div>
+                    <div class="testm-cont">
+                        I am highly privileged to be your student for last 2 years for math and science.<br>
+                        Your daily lesson plan execution and feed back was so meticulously performed that it inspired  me for regular practise of Hots questions.<br>
+                        I am  thankful to such a versatile and wonderful teacher.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section contact wrap-animate">
+        <div class="contact-title shadowed-text">Join Today!</div>
+        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfI-yjOmg-bVO4317B07-439VL2oDscC1V8AErKEHEe7N3hKA/formResponse?" target="hiddenFrame" onsubmit="formSub()" class="contact-wrapper">
+            <div class="contact-name">
+                <label for="name">Name</label>
+                <input type="text" name="entry.1350332929" id="entry.1350332929" class="contact-input ">
+            </div>
+
+            <div class="contact-email">
+                <label for="Email">Email</label>
+                <input type="text" name="entry.744223872" id="entry.744223872" class="contact-input">
+            </div>
+
+            <div class="contact-number">
+                <label for="number">Phone Number</label>
+                <input type="text" name="entry.2002675169" id="entry.2002675169" class="contact-input">
+            </div>
+
+            <div class="contact-board">
+                <label for="board">Board</label>
+                <input type="text" name="entry.123526127" id="entry.123526127" class="contact-input">
+            </div>
+
+            <div class="contact-message">
+                <label for="message">Message</label>
+                <textarea type="text" name="entry.2143752371" id="entry.2143752371" class="contact-input message-area"></textarea>
+            </div>
+
+            <div class="contact-submit-wrap">
+                <input type="submit" class="contact-submit">
+            </div>
+        </form>
+        
+    </div>
+    <footer>
+        <div class="scrollIndicate">
+            <i class="material-icons">keyboard_arrow_up</i>
+            Scroll
+            <i class="material-icons">keyboard_arrow_down</i>
+        </div><br>
+        <div class="copyRight">&copy;Made by Aum Bhatt. All Rights Reserved.</div>
+    </footer>
+</body>
+<iframe name="hiddenFrame" id="hiddenFrame" style="display: none;">
+</iframe>
+<script>
+    var submitted = false;
+    var flag = 0;
+    function formSub(){
+        submitted = true;
+        console.log(submitted);
+        flag = 1;
+        document.querySelector('form').style.display = 'none';
+        document.querySelector('.contact-title').innerHTML = 'Thank you for submitting the form!<br> We will contact you shortly';
+    }
+</script>
+<script src="js/mobile-nav-control.js"></script>
+<script src="js/scroll-control.js"></script>
+</html>
+<!-- 
+    Made By Aum Bhatt.
+    
+    The following code is Intellectual Property of Aum Bhatt.
+    No changes can be brought without taking permission Aum Bhatt.
+
+    Copyrighted By Aum Bhatt.
+    All Rights Reserved.
+ -->

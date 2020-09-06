@@ -1,0 +1,128 @@
+/* 
+    Made By Aum Bhatt.
+    
+    The following code is Intellectual Property of Aum Bhatt.
+    No changes can be brought without taking permission Aum Bhatt.
+
+    Copyrighted By Aum Bhatt.
+    All Rights Reserved. 
+*/
+
+
+.about{
+    background: #F0932B;
+}
+
+.about-wrapper{
+
+    margin-top: 3vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* ------ About Image ------ */
+
+.about-title{
+
+    margin: 20px;
+    margin-top: 0px;
+
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.about-image{
+    width: 62%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.about-image img{
+    width: 65%;
+
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+/* ------ About Text ------ */
+
+.about-text{
+    width: 80%;
+
+    margin: 20px;
+
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.facultyName{
+    width: 100%;
+
+    margin-bottom: 15px;
+
+    font-size: 20px;
+    color: white;
+
+}
+/* ------ Desktop ------ */
+
+@media (min-width:768px){
+    /* --- wrapper --- */
+
+    .about-wrapper{
+        margin-top: 5vh;
+        display: grid;
+        grid-template-areas: 
+                        'title title'
+                        'text image';
+
+    }
+
+    .about-title{
+        width: 100%;
+        grid-area: title;
+
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .about-image{
+        width: 35vw;
+        height: 35vw;
+
+        grid-area: image;
+    }
+
+    .about-text{
+        width: 40vw;
+        grid-area: text;
+
+        padding: 30px;
+
+        font-size: 20px;
+
+    }
+}
+
+/* 
+    Made By Aum Bhatt.
+    
+    The following code is Intellectual Property of Aum Bhatt.
+    No changes can be brought without taking permission Aum Bhatt.
+
+    Copyrighted By Aum Bhatt.
+    All Rights Reserved. 
+*/
